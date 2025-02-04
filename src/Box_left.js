@@ -5,7 +5,7 @@ import Box from './Box.js';
 let Boxs = [];
 for(let i =0 ; i < 6; i++)
 {
-    Boxs.push(<Box num = {i+1}/>);
+    Boxs.push(<Box hard1={i+1} para = 'text'/>);
 }
 
 function box_left() {

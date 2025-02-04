@@ -5,7 +5,7 @@
 
 }
 
-h2 {
+h1 {
     font-weight: 900;
     font-size: 20px;
     margin: 10px 0;
@@ -25,12 +25,13 @@ h2 {
     background-image: url('./img/chef_about.png');
 }
 
-.top_left>p{
+.top_left .box{
     width: 210px;
     height: 210px;
     padding: 20px;
     margin-top: 250px;
     background-color: #386d0dc8;
+    display:block;
 }
 
 .top img{

@@ -1,9 +1,10 @@
 import './about.css';
+import Box from './Box.js';
 
 function top_left () {
     return (
         <div className='top_left'>
-            <p><h2>GLOBAL BUSINESS</h2> Lorem ipsum dolor</p>
+            <Box hard1 = {'GLOBAL BUSINESS'}/>
         </div>
     );
 }
