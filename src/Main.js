@@ -1,7 +1,8 @@
 import './main.css';
 import './img/main.png';
 import Icon_title from './Icon_title.js'
-import Icon_box from './Icon_box.js'
+import Icon_box from 'react-module1/dist/Icon_box.js';
+
 
 function main () {
     return(

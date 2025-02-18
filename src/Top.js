@@ -1,7 +1,7 @@
 import './about.css';
 import React from 'react';
 import Top_left from './Top_left.js';
-import Box from './Box.js';
+import Box from "react-module2/dist/Box";
 import img1 from './img/right1.png';
 import img2 from './img/right2.png';
 

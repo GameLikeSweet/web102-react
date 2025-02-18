@@ -1,5 +1,5 @@
 import './about.css';
-import Box from './Box.js';
+import Box from "react-module2/dist/Box";
 
 function top_left () {
     return (

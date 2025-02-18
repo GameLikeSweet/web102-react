@@ -1,5 +1,5 @@
 import './about.css';
-import Box from './Box.js';
+import Box from "react-module2/dist/Box";
 
 
 let lorem = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
