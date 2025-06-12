@@ -1,11 +1,12 @@
 import './main.css';
 import './img/main.png';
-import Icon_title from './Icon_title.js'
-import Icon_box from 'react-module1/dist/Icon_box.js';
+import Icon_title from './Icon_title';
+import Icon_box from 'react-module1';
 
+function Main() {
 
-function main () {
-    return(
+    console.log(Icon_box);
+    return (
         <>
             <div className='main_picture'></div>
             <Icon_title />
@@ -14,4 +15,4 @@ function main () {
     );
 }
 
-export default main;
+export default Main;

@@ -3,7 +3,7 @@ import Main from './Main.js';
 import Bottom from './Bottom.js';
 import './main.css';
 
-function home () {
+function Home () {
     return(
         <div className='body'>
             <Header />
@@ -13,4 +13,4 @@ function home () {
     );
 }
 
-export default home;
+export default Home;
